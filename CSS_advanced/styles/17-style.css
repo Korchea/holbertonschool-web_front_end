@@ -446,6 +446,13 @@ section {
     text-align: var(--section-footer-align);
 }
 
+footer {
+    padding-left: var(--footer-padding);
+    padding-top: var(--footer-padding);
+    padding-bottom: var(--footer-padding);
+    padding-right: var(--footer-padding);
+}
+
 .section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
@@ -459,13 +466,6 @@ section {
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
-}
-
-footer {
-    padding-left: var(--footer-padding);
-    padding-top: var(--footer-padding);
-    padding-bottom: var(--footer-padding);
-    padding-right: var(--footer-padding);
 }
 
 .container {
