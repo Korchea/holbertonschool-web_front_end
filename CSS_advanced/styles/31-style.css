@@ -732,32 +732,32 @@ ul.row {
     opacity: 0;
     height: 100%;
     position: relative;
-  }
+}
   
-  .card-work .card-title a {
+.card-work .card-title a {
     display: block;
     text-decoration: none;
     padding-top: 45%;
-  }
+}
   
-  .card-work .card-title a::after {
+.card-work .card-title a::after {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     content: '';
-  }
+}
   
-  .card-work:hover .card-title {
+.card-work:hover .card-title {
     opacity: 1;
-  }
+}
 
-  .card-testimonial .card-quote {
+.card-testimonial .card-quote {
     position: relative;
-  }
+}
   
-  .card-testimonial .card-quote::before {
+.card-testimonial .card-quote::before {
     content: "\201C";
     position: absolute;
     top: -4.5rem;
@@ -765,4 +765,4 @@ ul.row {
     color: #efeded;
     font-size: 10rem;
     z-index: -1;
-  }
+}
